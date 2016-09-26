@@ -1,5 +1,5 @@
-Ansible role: ganto.gdnsd
-=========================
+Ansible role: debops-contrib.gdnsd
+==================================
 
 .. toctree::
    :maxdepth: 2

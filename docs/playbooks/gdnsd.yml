@@ -1,9 +1,9 @@
 ---
 
 - name: Manage gdnsd authoritative DNS servers
-  hosts: gdnsd_service
+  hosts: debops_gdnsd_service
   become: True
 
   roles:
-    - role: ganto.gdnsd
+    - role: debops-contrib.gdnsd
       tags: [ 'role::gdnsd' ]
