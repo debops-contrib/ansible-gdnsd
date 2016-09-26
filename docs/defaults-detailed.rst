@@ -1,9 +1,9 @@
 Default variable details
 ========================
 
-Some of ``ganto.gdnsd`` default variables have more extensive configuration
-than simple strings or lists, here you can find documentation and examples
-for them.
+Some of ``debops-contrib.gdnsd`` default variables have more extensive
+configuration than simple strings or lists, here you can find documentation
+and examples for them.
 
 .. contents::
    :local:

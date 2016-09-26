@@ -1,7 +1,15 @@
-## gdnsd
+## [![DebOps](https://debops.org/images/debops-small.png)](https://debops.org) gdnsd
 
-[![Travis CI](http://img.shields.io/travis/ganto/ansible-gdnsd.svg?style=flat)](https://travis-ci.org/ganto/ansible-gdnsd)
+[![Travis CI](http://img.shields.io/travis/debops-contrib/ansible-gdnsd.svg?style=flat)](https://travis-ci.org/debops-contrib/ansible-gdnsd)
 [![test-suite](http://img.shields.io/badge/test--suite-ansible--gdnsd-blue.svg?style=flat)](https://github.com/ganto/debops-test-suite/tree/master/ansible-gdnsd/)
+
+### Warning, this is a Beta role
+
+This role has been marked by the author as a beta role, which means that it
+might be significantly changed in the future. Be careful while using this role
+in a production environment.
+
+***
 
 [gdnsd](http://gdnsd.org/) is a powerful Authoritative-only DNS server with
 some advanced features such as geographic (or other sorts of) balancing,
@@ -17,7 +25,7 @@ inventory and properly increase the serial on zone updates.
 This role requires at least Ansible `v1.9.0`. To install it run:
 
 ```Shell
-git clone https://github.com/ganto/ansible-gdnsd ganto.gdnsd
+git clone https://github.com/debops-contrib/ansible-gdnsd debops-contrib.gdnsd
 ```
 
 
@@ -27,7 +35,16 @@ Currently the documentation is only available in raw format in the
 [docs](/docs/) directory.
 
 
-### Author
+### Are you using this as a standalone role without DebOps?
+
+You may need to include missing roles from the [DebOps common
+playbook](https://github.com/debops/debops-playbooks/blob/master/playbooks/common.yml)
+into your playbook.
+
+[Try DebOps now](https://debops.org/) for a complete solution to run your Debian-based infrastructure.
+
+
+### Authors and license
 
 The content of this repository was written by:
 
