@@ -16,7 +16,7 @@ This role requires at least Ansible ``v1.9.0``. To install it run:
 
 .. code-block:: console
 
-   user@host:~$ git clone https://github.com/debops-contrib/ansible-gdnsd debops-contrib.gdnsd
+   user@host:~$ ansible-galaxy install debops-contrib.gdnsd
 
 ..
  Local Variables:
