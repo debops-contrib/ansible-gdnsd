@@ -12,6 +12,10 @@ galaxy_info:
     - name: Debian
       versions:
         - jessie
+        - stretch
+    - name: Ubuntu
+        - trusty
+        - xenial
 
   galaxy_tags:
     - gdnsd

@@ -2,6 +2,7 @@
 
 [![Travis CI](http://img.shields.io/travis/debops-contrib/ansible-gdnsd.svg?style=flat)](https://travis-ci.org/debops-contrib/ansible-gdnsd)
 [![test-suite](http://img.shields.io/badge/test--suite-ansible--gdnsd-blue.svg?style=flat)](https://github.com/ganto/debops-test-suite/tree/master/ansible-gdnsd/)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-debops--contrib.gdnsd-660198.svg?style=flat)](https://galaxy.ansible.com/debops-contrib/gdnsd)
 
 ### Warning, this is a Beta role
 
@@ -25,7 +26,7 @@ inventory and properly increase the serial on zone updates.
 This role requires at least Ansible `v1.9.0`. To install it run:
 
 ```Shell
-git clone https://github.com/debops-contrib/ansible-gdnsd debops-contrib.gdnsd
+ansible-galaxy install debops-contrib.gdnsd
 ```
 
 
